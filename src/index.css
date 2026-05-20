@@ -1,0 +1,53 @@
+body {
+  background: #f4f6f8;
+}
+
+.hero-section {
+  min-height: calc(100vh - 56px);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)),
+    url("https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.scores-page {
+  min-height: calc(100vh - 56px);
+}
+
+.match-card {
+  border-radius: 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.team-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.score {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.empty-state {
+  background: white;
+  border-radius: 18px;
+}
